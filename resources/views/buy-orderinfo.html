@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Welcome to DeVanche</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="Page description">
+<meta name="keywords" content="Page keywords">
+<link rel="shortcut icon" href="bootstrap/ico/favicon.ico" type="image/x-icon">
+<link rel="icon" href="bootstrap/ico/favicon.ico" type="image/x-icon">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<!-- Bootstrap Css -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="bootstrap/css/styles.css" />
+<link rel="stylesheet" href="bootstrap/css/print.css" media="print" />
+<link rel="stylesheet" href="bootstrap/css/responsive.css" />
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="bootstrap/js/vendor/html5shiv.min.js"></script>
+<script src="bootstrap/js/vendor/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- Start Wrapper -->
+<div class="wrapper"> 
+  <!-- Start header here -->
+  <header class="header"> 
+    <!-- Top header start -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row"> 
+          <!-- start navbar main -->
+          <nav class="navbar navbar-default"> 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <ul class="navbar-brand top-leftnav">
+                <!--<li class="line"><a href="#signin" title="Signin" data-toggle="modal" data-backdrop="static" data-keyboard="false">Signin<span class="sr-only">(current)</span></a></li>
+            	<li><a href="registration.html" title="Register">Register</a></li> -->
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Buy">Hi John <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" title="My Account">My Account</a></li>
+                    <li><a href="#" title="My Activity">My Activity</a></li>
+                    <li><a href="#" title="My Profile">My Profile</a></li>
+                    <li><a href="#" title="My Settings">My Settings</a></li>
+                    <li><a href="index.html" title="Logout">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              <div class="visible-xs language">
+                <div class="selectbox">
+                  <select class="selectpicker">
+                    <option>EN</option>
+                    <option>FR</option>
+                  </select>
+                </div>
+              </div>
+              <div class="language currancy visible-xs">
+                <div class="selectbox">
+                  <select class="selectpicker">
+                    <option>USD</option>
+                    <option>EURO</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-left">
+                <!--<li class="active line"><a href="#" title="Signin">Login<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#" title="Register">Register</a></li>  -->
+                <li class="dropdown buy"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Buy">Buy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" title="Browse Categories">Browse Categories</a></li>
+                    <li><a href="#" title="Buy Bulk">Buy Bulk</a></li>
+                    <li><a href="#" title="Help & Support">Help &amp; Support</a></li>
+                    <li><a href="#" title="FAQs">FAQs</a></li>
+                    <li><a href="#" title="Become Seller">Become Seller</a></li>
+                    <li><a href="#" title="Advertisement">Advertisement</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown sell"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Sell">Sell <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" title="Shipping Options">Shipping Options</a></li>
+                    <li><a href="#" title="How To Sell">How To Sell</a></li>
+                    <li><a href="#" title="Help">Help</a></li>
+                    <li><a href="#" title="FAQs">FAQs</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown mingle"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Mingle">Mingle <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" title="Get Connected">Get Connected</a></li>
+                    <li><a href="#" title="Forum">Forums</a></li>
+                    <li><a href="#" title="About Mingle">About Mingle</a></li>
+                    <li><a href="#" title="Terms of Use">Terms of use</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown help"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Help">Help <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" title="Help Center For Buyer">Help Center For Buyer</a></li>
+                    <li><a href="#" title="Help Center For Seller">Help Center For Seller</a></li>
+                    <li><a href="#" title="Help Canter for Advertiser">Help Canter for Advertiser</a></li>
+                    <li><a href="#" title="New User Guide">New User Guide</a></li>
+                    <li><a href="#" title="Membership Benefits">Membership Benefits</a></li>
+                    <li><a href="#" title="FAQ's">FAQ's</a></li>
+                    <li><a href="#" title="Quick Chat">Quick Chat</a></li>
+                    <li><a href="#" title="Quick Chat">Contact us</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <a href="#" class="head-advertise"><img src="bootstrap/img/header-advertise.jpg" alt="" height="50" width="254"></a>
+              <ul class="nav navbar-nav navbar-right">
+                <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="#">My Activities</a></li>
+                            <li><a href="#">My Dashboard</a></li>  											
+                            <li><a href="#">My Settings</a></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </li> -->
+                <li class="dropdown compare"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Compare">Compare <strong>(0)</strong> <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Product 1</a></li>
+                    <li><a href="#">Product 2</a></li>
+                  </ul>
+                </li>
+                <!-- <li><a href="#" class="help"></a></li> -->
+                <li><a href="#" class="nav-favourite" title="Favourite">Favourite</a></li>
+                <li><a href="#" class="nav-email" title="Email"><span></span><strong>(4)</strong></a></li>
+                <li><a href="#" class="top-cart" title="Shopping Cart"> 
+                  <!-- <span class="count orange">3</span> <i class="shopping-cart" aria-hidden="true"></i>--> 
+                  <span></span>Shopping Cart</a> </li>
+                <li class="dropdown language hidden-xs">
+                  <div class="selectbox">
+                    <select class="selectpicker">
+                      <option>EN</option>
+                      <option>FR</option>
+                    </select>
+                  </div>
+                </li>
+                <li class="dropdown language currancy hidden-xs">
+                  <div class="selectbox">
+                    <select class="selectpicker">
+                      <option>USD</option>
+                      <option>EURO</option>
+                    </select>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse --> 
+          </nav>
+          <!-- end navbar main --> 
+        </div>
+      </div>
+    </div>
+    <!-- Top header end --> 
+    <!-- second header start -->
+    <div class="serch-sec stickynav">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-default">
+            <h1 class="navbar-brand logo"><a href="index.html" title="Inspree"><img src="bootstrap/img/inspree-logo.png" width="94" height="31" alt="Inspree"></a></h1>
+            <ul class="nav navbar-nav megamenu">
+              <li><a href="#" title="Shop by Occasion">Shop by<br>
+                Occasion <span class="caret"></span></a></li>
+              <li><a href="category-listing.html" title="Shop by Category">Shop by<br>
+                Category <span class="caret"></span></a></li>
+            </ul>
+            <div class="search-bar">
+              <input type="text" name="product search" class="form-control" placeholder="Search for a product, Brand or category">
+              <div class="selectbox">
+                <select class="selectpicker">
+                  <option selected="" value="All Category">All Category</option>
+                  <option value="Jewellery">Jewellery</option>
+                  <option value="Real Estate">Real Estate</option>
+                  <option value="Fashion">Fashion</option>
+                  <option value="Clothing">Clothing</option>
+                  <option value="Automobile">Automobile</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Fitness &amp; Sports">Fitness &amp; Sports</option>
+                </select>
+              </div>
+              <a class="btn btn-primary searchbtn" title="Search">Search</a> 
+              <!--Advanced Search Start-->
+              <div class="dropdown advancelink"> <a href="#advanced" title="Advanced" data-toggle="modal" data-backdrop="static" data-keyboard="false">Advanced</a> </div>
+              <!--Advanced Search End--> 
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- second header End --> 
+  </header>
+  <!-- End header here --> 
+  
+  <!-- Start container here -->
+  <section class="content">
+    <div class="container"> 
+      <!--breadcrumb Start-->
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Buy</a></li>
+            <li class="active">Order Details</li>
+          </ul>
+        </div>
+      </div>
+      <!--breadcrumb Start-->
+      <h2>My Activity</h2>
+      <!-- Nav tabs Start-->
+      <ul class="myactivity-tab clearfix">
+        <li class="active"><a href="buy-dashboard.html" title="Buy">Buy</a></li>
+        <li><a href="sell-dashboard.html" title="Sell">Sell</a></li>
+        <li><a href="mingle-forums.html" title="Fourms">Fourms</a></li>
+        <li><a href="mingle-getconnect.html" title="Get Connected">Get Connected</a></li>
+        <li><a href="communiction.html" title="Communications">Communications</a></li>
+        <li><a href="profile.html" title="My Profile">My Profile</a></li>
+        <li><a href="setting.html" title="Settings">Settings</a></li>
+      </ul>
+      <!-- Nav tabs End-->
+      <div class="myactivity"> <a href="#" id="productnav" class="btn btn-info visible-xs-inline-block">Filter Option</a>
+        <div class="widecol-bg clearfix bgbrown-sidebar"> 
+          <!--Leftside Start -->
+          <div class="leftcol-bg"> <a href="#" class="close-filter">Close</a>
+            <ul class="product-nav">
+              <li class="dashboard"><a href="buy-dashboard.html" class="btn btn-primary" title="Dashboard">Dashboard</a></li>
+              <li class="active"><a href="buy-orderhistory.html" title="Order History">Order History<span>(5)</span></a>
+                <ul class="submenu">
+                  <li class="active"><a href="buy-orderinfo.html" title="Order Information">Order Information</a></li>
+                  <li><a href="buy-invoice.html" title="View Invoice">View Invoice</a></li>
+                </ul>
+              </li>
+              <li><a href="buy-returnhistory.html" title="Return History">Return History<span>(3)</span></a>
+                <ul class="submenu">
+                  <li><a href="buy-returndetail.html" title="Return Detail">Return Detail</a></li>
+                </ul>
+              </li>
+              <li><a href="buy-bids.html" title="Placed Bids">Placed Bids<span>(3)</span></a></li>
+              <li><a href="buy-offers.html" title="Placed Offers">Placed Offers<span>(5)</span></a></li>
+              <li><a href="buy-review.html" title="Received Review ">Received Review </a></li>
+              <li><a href="buy-preview.html" title="Preview Request">Preview Request<span>(5)</span></a></li>
+              <li><a href="buy-ads.html" title="Purchased Ads">Purchased Ads</a></li>
+              <li><a href="buy-wishlist.html" title="Wish List">Wish List</a></li>
+              <li><a href="buy-requested.html" title="Product Requested">Product Requested</a></li>
+            </ul>
+          </div>
+          <!--Leftside End --> 
+          <!--Rightside Start -->
+          <div class="rightcol-bg clearfix  buy-orderinfo">
+          <div class="equal-column">
+            <h4>Order Information</h4>
+            
+          
+            
+              <ul class="overview-classified clearfix">
+            	<li>My Orders</li>  
+                <li class="small"><a href="#">View Detail</a></li> 
+            </ul>
+            <div class="advance-filter">
+            	<ul class="overview-order clearfix">
+            		<li>Orders#:<span>100000177</span></li>  
+                	<li>Order status:<span>processing</span></li> 
+            	</ul>
+            </div>
+            <div class="table-responsive noborder">
+            <table class="table without-border">
+            	<tr>
+                	<td class="col1">Order Date:</td>
+                    <td class="col2">October 27,2015</td>
+                    <td class="col1">Payment Method:</td>
+                    <td class="col2">Debit Card</td>
+                </tr>
+                <tr>
+                	<td class="col1">Shipping Address:</td>
+                    <td class="col2">
+                    	<table>
+                        	<tr><td>John Doe</td></tr>
+                            <tr><td>xxxx</td></tr>
+                            <tr><td>xxx,Alaska,93425000</td></tr>
+                            <tr><td>United States</td></tr>
+                            <tr><td>T:999999999</td></tr>
+                        </table>
+                    </td>
+                    <td class="col1">Shipping Address:</td>
+                    <td class="col2">
+                    	<table>
+                        	<tr><td>John Doe lorem ipsum John Doe lorem ipsum John Doe lorem ipsum</td></tr>
+                            <tr><td>xxx,Alaska,93425000</td></tr>
+                            <tr><td>United States</td></tr>
+                            <tr><td>T:999999999</td></tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                	<td class="col1">Shipping Method:</td>
+                    <td colspan="3">United Parcel Service- 3 day Select</td>
+                </tr>
+            </table>
+            </div>
+            <hr class="mrg-topnone">
+             <h5 class="blacktitle">Item Ordered</h5>
+             
+              <!--Buy order history Table Start-->
+            <div class="table-responsive">
+              <ul class="order-review">
+              	<li>Bidders:<span>14</span></li>
+                <li>Bids:<span>14</span></li>
+                <li>Expiration:<span>1 day 15 hours 21 mins</span></li>
+              </ul> 	
+              <table class="table table-bordered itemorder-table mobile-table">
+                <thead>
+                  <tr>
+                    <th class="col1">bidder</th>
+                    <th class="col2">SKU</th>
+                    <th class="col3">price</th>
+                    <th class="col4">QTY</th>
+                    <th class="col5">sub total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="col1" data-title="Bidder">Blue Cort</td>
+                    <td class="col2" data-title="SKU">Blue Cort</td>
+                    <td class="col3" data-title="Price">27-Nov-2015 15:06:56 CST</td>
+                    <td class="col4" data-title="QTY">2</td>
+                    <td class="col5" data-title="Sub Total">$690.00</td>
+                  </tr>
+                  <tr>
+                    <td class="col1" data-title="Bidder">Shirt</td>
+                    <td class="col2" data-title="SKU">Shirt</td>
+                    <td class="col3" data-title="Price">27-Nov-2015 15:06:56 CST</td>
+                    <td class="col4" data-title="QTY">2</td>
+                    <td class="col5" data-title="Sub Total">$690.00</td>
+                  </tr>
+                  <tr>
+                    <td class="col1" data-title="Bidder">Iphone 6S</td>
+                    <td class="col2" data-title="SKU">Iphone 6S</td>
+                    <td class="col3" data-title="Price">27-Nov-2015 15:06:56 CST</td>
+                    <td class="col4" data-title="QTY">2</td>
+                    <td class="col5" data-title="Sub Total">$690.00</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+            </div>
+            <div class="itemorder-total text-right">
+              	  <div>Sub Total:<span>$2070.00</span></div>
+                  <div>Grand Total:<span>$2070.00</span></div>	
+            </div>
+            <hr>
+            <div class="clearfix text-right">
+            	<a href="#" class="btn btn-link" title="Back To Order"><span class="backarrow"></span>Back To Order</a>
+            </div>
+            <!--Sell manage order Table End--> 
+            
+            <!--Buy order history Table End--> 
+            </div>
+          </div>
+          <!--Rightside End --> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End container here --> 
+  
+  <!-- Start footer here -->
+  <footer>
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12">
+            <div class="email"> <i class="email-icon"></i> Subscribe to the DeVanche mailing list to receive updates on new arrivals, special offers and other discount information. </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="subscribe">
+              <input type="text" class="form-control" name="subscribe" placeholder="Enter you Email Address">
+              <button class="btn btn-primary" title="Subscribe">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-footer">
+      <div class="footer-menu container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 logo-description clearfix">
+            <div class="footer-logo">In Spree</div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </p>
+            <a href="#" class="readmore" title="Read More">Read More<span></span></a> </div>
+          <div class="col-md-2 col-sm-3">
+            <h3>buy</h3>
+            <ul class="menu">
+              <li><a href="#" title="Registration">registration</a></li>
+              <li><a href="#" title="Bidding & buying help">bidding &amp; buying help</a></li>
+              <li><a href="#" title="Buying Basics">buying basics</a></li>
+              <li><a href="#" title="FAQ">FAQ</a></li>
+              <li><a href="#" title="Buying Policies">buying policies</a></li>
+            </ul>
+            <h3>my account</h3>
+            <ul class="menu">
+              <li><a href="#" title="Wish List">wish list</a></li>
+              <li><a href="#" title="Watch List">watch list</a></li>
+              <li><a href="#" title="My Order History">my order history</a></li>
+              <li><a href="#" title="My Returns">my returns</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <h3>sell</h3>
+            <ul class="menu">
+              <li><a href="#" title="Selling Basics">selling basics</a></li>
+              <li><a href="#" title="Our Policies">our policies</a></li>
+              <li><a href="#" title="Selling Policies">selling policies</a></li>
+              <li><a href="#" title="Start Selling">start selling</a></li>
+              <li><a href="#" title="Learn to Sell">learn to sell</a></li>
+              <li><a href="#" title="Business Sellers">business sellers</a></li>
+            </ul>
+            <h3>Stay Connected</h3>
+            <ul class="menu">
+              <li><a href="#" title="InSpree Forum">inSpree forum</a></li>
+              <li><a href="#" title="InSpree Mingle">inSpree mingle</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <h3>about us</h3>
+            <ul class="menu">
+              <li><a href="#" title="Company Info">Company Info</a></li>
+              <li><a href="#" title="News">News</a></li>
+              <li><a href="#" title="Investors">Investors</a></li>
+              <li><a href="#" title="Careers">Careers</a></li>
+              <li><a href="#" title="Government">Government</a></li>
+              <li><a href="#" title="relations">relations</a></li>
+              <li><a href="#" title="Site Map">Site Map</a></li>
+              <li><a href="#" title="Advertise with Us">Advertise with Us</a></li>
+              <li><a href="#" title="Donation">Donation</a></li>
+              <li><a href="#" title="Money back Gurantee">Money back Gurantee</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <h3>help &amp; Support</h3>
+            <ul class="menu">
+              <li><a href="#" title="Contact Info">Contact Info</a></li>
+              <li><a href="#" title="Help Center">Help Center</a></li>
+              <li><a href="#" title="Returns & Replacements">Returns &amp; Replacements</a></li>
+              <li><a href="#" title="Security Centre">Security Centre</a></li>
+              <li><a href="#" title="Policies">Policies</a></li>
+              <li><a href="#" title="Tell us what you think">Tell us what you think</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row payment-social-block">
+          <div class="col-md-12">
+            <div class="social-connect clearfix">
+              <div>
+                <h3>Stay Connected</h3>
+                <ul class="social-share">
+                  <li class="facebook"><a href="#" title="Facebook"></a></li>
+                  <li class="twitter"><a href="#" title="Twitter"></a></li>
+                  <li class="google"><a href="#" title="Google+"></a></li>
+                  <li class="pintrest"><a href="#" title="Pinterest"></a></li>
+                  <li class="instagram"><a href="#" title="Instagram"></a></li>
+                  <li class="linkedin"><a href="#" title="Linkedin"></a></li>
+                  <li class="youtube"><a href="#" title="You Tube"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 nopadding clearfix">
+              <ul class="payment-gateway clearfix">
+                <li><a href="#" class="paypal" title="Paypal">Paypal</a></li>
+                <li><a href="#" class="visa" title="Visa Checkout">visa</a></li>
+                <li><a href="#" class="masterpass" title="MasterPass">MasterPass</a></li>
+                <li><a href="#" class="nasdaq" title="Nasdaq">Nasdaq</a></li>
+                <li><a href="#" class="bbb" title="Accredited Business">Accredited Business</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12"> <span class="copy-text"> Copyright &copy; 2015 DeVanche. All Right Reserved. </span>
+              <ul class="footer-bottommenu">
+                <li><a href="#" title="Terms &amp; Condition">Terms &amp; Condition</a></li>
+                <li>/</li>
+                <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer here --> 
+  <!--Back to top --> 
+  <a href="#" id="back-to-top" title="Back to top"></a> </div>
+<!-- End Wrapper --> 
+
+<!-- jquery.min and bootstrap.min is available here. You can add other minified file here...--> 
+<script src="bootstrap/js/lib.min.js"></script> 
+<!-- Custom javascript code goes in general.js file... --> 
+<script src="bootstrap/js/general.js"></script> 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".product-nav li .submenu li.active").each(function () {
+            $(this).parent().addClass("openouter").parent("li").addClass("active");
+        });
+        $(".product-nav li").on("click", function () {
+            $('.product-nav li > ul').not($(this).children("ul").toggle()).hide();
+        })
+		$('#buyorderhistory-table').DataTable({
+			oLanguage: {sLengthMenu: "<select class='selectpicker'>"+
+            "<option value='10'>10</option>"+
+            "<option value='25'>25</option>"+
+            "<option value='50'>50</option>"+
+			"<option value='100'>100</option>"+
+            "<option value='-1'>All</option>"+
+            "</select> "},
+			"aoColumnDefs": [
+				{ "width": "85px", "targets":0},
+				{ "width": "90px", "targets":1},
+				{ "width": "40px", "targets":2,orderable : false},
+				{ "width": "190px", "targets":3},
+				{ "width": "60px", "targets":4},
+				{ "width": "150px", "targets":5},
+				{ "width": "100px", "targets":6},
+				{ "width": "100px", "targets":7},
+				{ "width": "150px", "targets":8,orderable : false}
+			],
+			
+		});
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    #Options +FollowSymLinks
+    #Option Indexes
+    RewriteEngine On
+    RewriteRule "\.env" "-" [F]
+    #<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+    #Header set Cache-Control "max-age=28800"
+    #</FilesMatch>
+</IfModule>
